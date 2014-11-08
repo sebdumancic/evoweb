@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/* CSS Document */
+#container {
+	width: 968px;
+	background: #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+#banner {
+	background-image: url(images/banner2.gif);
+	height: 114px;
+	width: 968px;
+	display: block;
+	text-indent:-9999px;
+}
+#main_image {
+	background-image: url(images/left_images.gif);
+	height: 584px;
+	width: 300px;
+}
+#main_image {
+	float: left;
+	width: 300px;
+}
+#main_content {
+	float: right;
+	width: 668px;
+}
+
+#main_text {
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	font-size:0.8em;
+	text-align: justify;
+	float: right;
+	width: 573px;
+}
+#title {
+	float: left;
+	width: 60px;
+}
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #630;
+	padding: 0px;
+	background-color: #FFF;
+	text-align: justify;
+	margin: 0;
+}
+#links {
+	color: #F93;
+	text-align: right;
+	word-spacing: 4.8em;
+	float: right;
+	width: 763px;
+	padding-right: 5px;
+	height: 30px;
+	font-size: 0.75em;
+}
+#hr_en {
+	font-weight: normal;
+	color: #F93;
+	text-align: left;
+	float: left;
+	width: 200px;
+	height: 30px;
+	font-size: 0.8em;
+}
+#header {
+	width: 968px;
+	height: 30px;
+}
+
+#container #main_content #main_text p {
+	color: #630;
+}
+#container #main_content #main_text p strong {
+}
+.question {
+	font-style: italic;
+}
+.question {
+	font-style: italic;
+}
+.question {
+	font-style: italic;
+}
+.question {
+	font-style: italic;
+}
+.question {
+	font-style: italic;
+}
+.question {
+	font-style: italic;
+}
+.question {
+	font-style: italic;
+}
+.bold {
+	font-weight: bold;
+}
+#container #main_content #main_text center table tr td h2 {
+	text-align: left;
+}
+.justified {
+	text-align: justify;
+}
+#main_text #slika {
+	float: right;
+	width: 290px;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	color: #630;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#main_content #main_text #slika #quote {
+	color: #663;
+	font-size: 0.9em;
+	width: 280px;
+}
+#container #main_content #main_text #column1 {
+	float: left;
+}
+#container #main_content #main_text #column2 {
+	float: right;
+	width: 320px;
+}
+#container #main_content #main_text #column2 #naslov {
+	text-indent: 50px;
+}
+#container #main_content #main_text #current #orgS3 {
+	float: left;
+	width: 270px;
+}
+#container #main_content #main_text #current #orgS3pp {
+	float: right;
+	width: 270px;
+}
+#container #main_content #main_text #committee {
+	width: 573px;
+}
+#container #main_content #main_text #committee #branimir {
+	float: left;
+}
+#container #main_content #main_text #committee #branimir {
+	float: left;
+	width: 130px;
+}
+#container #main_content #main_text #committee #martina {
+	float: right;
+	width: 430px;
+}
+#container #main_content #main_text #current #orgS3 #branko {
+	float: left;
+}
+#container #main_content #main_text #current #orgS3 #matija {
+	float: right;
+}
+#container #main_content #main_text #current #orgS3pp #marko {
+	float: left;
+}
+#container #main_content #main_text #current #orgS3pp #anamarija {
+	float: right;
+}
+#container #main_content #main_text #korado {
+	width: 573px;
+	float: right;
+}
+#container #main_content #main_text #org {
+	width: 573px;
+}
+#container #main_content #main_text #org #orgS3 {
+	float: left;
+	width: 250px;
+}
+#container #main_content #main_text #org #orgS3pp {
+	float: right;
+}
+#container #main_content #main_text #org #orgS3 #branko {
+	float: left;
+}
+#container #main_content #main_text #org #orgS3 #matija {
+	float: right;
+}
+#container #main_content #main_text #org #orgS3pp {
+	float: right;
+	width: 250px;
+}
+#container #main_content #main_text #org #orgS3pp #marko {
+	float: left;
+}
+#container #main_content #main_text #org #orgS3pp #anamarija {
+	float: right;
+}
+#container #main_content #main_text #slikaCV {
+	float: left;
+	padding-right: 10px;
+}
+#main_content #main_text div #slika_lijevo {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+#main_content #main_text div ul #tabela1 {
+	float: left;
+	width: 150px;
+}
+#main_content #main_text div ul #tabela2 {
+	float: right;
+	width: 370px;
+}
+#main_content #main_text div ul #tabela2 #tabela2a {
+	float: left;
+}
+#main_content #main_text div ul #tabela2 #tabela2b {
+	float: right;
+	width: 200px;
+}
+#main_content #main_text div div #img {
+	float: right;
+}
+#main_content #main_text div div #tekst {
+	float: left;
+}
+#container #main_content #main_text #main_text2 #brzi_linkovi {
+	float: right;
+	width: 140px;
+}
+#container #main_content #main_text #main_text2 #glavni_tekst {
+	padding-left: 15px;
+	width: 433px;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	float: left;
+}
+#container #main_content #main_text #brzi_linkovi {
+	float: right;
+	width: 140px;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+#container #main_content #main_text #sudionici {
+	width: 500px;
+}
+#container #main_content #main_text #sudionici {
+	height: 240px;
+	width: 500px;
+}
+#container #main_content #main_text #copyright {
+	font-size: 9px;
+}
+
+#main_content #main_text #copyright p {
+	font-size: 9px;
+}
+#copyright {
+	font-size: 9px;
+}
+#container #main_content #main_text #korado #techs #luka {
+	float: left;
+	width: 130px;
+}
+#container #main_content #main_text #korado #techs #filip {
+	float: right;
+	width: 430px;
+}
+#container #main_content #main_text #techs {
+	width: 573px;
+}
+#container #main_content #main_text #techs #luka {
+	float: left;
+	width: 130px;
+}
+#container #main_content #main_text #techs #filip {
+	float: right;
+	width: 430px;
+}
+#main_content #main_text #org #orgS3 #branko {
+	float: left;
+}

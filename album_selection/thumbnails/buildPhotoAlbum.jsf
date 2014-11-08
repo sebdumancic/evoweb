@@ -1,0 +1,156 @@
+App.progressCountTotal = 19;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/dtd-swapshopovci.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'dtd-swapshopovci.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/dtd-swapshopovci_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/dtd-swapshopovci_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/dtd-swapshopovci_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/dtd-swapshopovci_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/dtd-swapshopovci_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/dtd-swapshopovci_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_1719.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'IMG_1719.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1719_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1719_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1719_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1719_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1719_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1719_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_1858.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'IMG_1858.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1858_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1858_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1858_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1858_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1858_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1858_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_1870.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'IMG_1870.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1870_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1870_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_1870_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1870_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1870_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_1870_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/img_2954.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'img_2954.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_2954_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_2954_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_2954_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_2954_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_2954_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_2954_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/img_2978.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'img_2978.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_2978_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_2978_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_2978_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_2978_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_2978_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_2978_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_3139.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'IMG_3139.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3139_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3139_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3139_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3139_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3139_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3139_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_3256.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'IMG_3256.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3256_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3256_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3256_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3256_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3256_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3256_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_3262.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'IMG_3262.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3262_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3262_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3262_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3262_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3262_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3262_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_3604.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'IMG_3604.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3604_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3604_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_3604_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3604_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3604_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_3604_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_6012.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'IMG_6012.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_6012_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_6012_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_6012_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_6012_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_6012_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_6012_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/IMG_6409.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'IMG_6409.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_6409_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_6409_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/IMG_6409_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_6409_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_6409_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/IMG_6409_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/img_8470.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'img_8470.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_8470_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_8470_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_8470_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_8470_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_8470_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_8470_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/img_8644.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'img_8644.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_8644_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_8644_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/img_8644_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_8644_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_8644_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/img_8644_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/leca.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'leca.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/leca_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/leca_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/leca_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/leca_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/leca_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/leca_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/spilja.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'spilja.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/spilja_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/spilja_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/spilja_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/spilja_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/spilja_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/spilja_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/tubice.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'tubice.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/tubice_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/tubice_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/tubice_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/tubice_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/tubice_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/tubice_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/z222.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'z222.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/z222_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/z222_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/z222_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/z222_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/z222_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/z222_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/gallery/z333.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'z333.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/z333_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/z333_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/images/z333_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/z333_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/z333_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_selection/thumbnails/z333_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

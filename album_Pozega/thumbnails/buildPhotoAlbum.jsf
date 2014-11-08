@@ -1,0 +1,76 @@
+App.progressCountTotal = 9;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan00.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'visnjan00.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan00_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan00_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan00_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan00_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan00_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan00_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan10.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'visnjan10.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan10_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan10_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan10_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan10_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan100.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'visnjan100.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan100_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan100_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan100_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan100_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan100_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan100_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan101.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'visnjan101.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan101_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan101_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan101_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan101_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan101_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan101_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan107.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'visnjan107.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan107_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan107_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan107_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan107_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan107_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan107_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan201.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'visnjan201.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan201_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan201_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan201_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan201_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan201_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan201_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan202.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'visnjan202.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan202_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan202_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan202_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan202_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan202_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan202_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan206.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'visnjan206.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan206_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan206_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan206_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan206_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan206_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan206_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Juliet/Users/mijuskov/Desktop/web photos/visnjan/visnjan207.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'visnjan207.jpg';
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan207_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan207_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/images/visnjan207_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan207_jpg.jpg') || confirm('file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan207_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Juliet/Users/mijuskov/local_sites/S3/album_Visnjan/thumbnails/visnjan207_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+'done';
