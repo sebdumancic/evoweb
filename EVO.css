@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+}
+
+#container {
+	width: 968px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	
+}
+#main_image {
+	background-repeat: no-repeat;
+	position: relative;
+	width: 968px;
+}
+#menu {
+	height: 200px;
+	width: 300px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	color: #999;
+	text-align: right;
+	float: left;
+	margin-top: 263px;
+	margin-right: 0px;
+	margin-bottom: 263px;
+	margin-left: 0px;
+}
+#EVO_image {
+	width: 650px;
+	font-size: 24px;
+	float: right;
+	margin-top: 243px;
+	margin-right: 0px;
+	margin-bottom: 263px;
+	margin-left: 0px;
+}
+
+#text_box {
+	float: right;
+	width: 600px;
+	margin-top: 100px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666;
+	font-size: 12px;
+	text-align: justify;
+}
+#copyright {
+	font-size: 9px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #999;
+}
+#container #main_image #language {
+	width: 650px;
+	height: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #CCC;
+}
