@@ -68,7 +68,7 @@ function MM_preloadImages() { //v3.0
           <li><a href="../proces.html">proces prijave</a></li>
           <li><a href="../motivacijsko.html">motivacijsko pismo</a></li>
           <li><a href="../placanje.html">plaćanje i stipendije</a></li>
-          <li><a href="../formulari.html">obrasci</a></li>
+          <li><a href="http://evounited-drustvoevo.rhcloud.com/s3/appForm/">obrazac za prijavu</a></li>
         </ul>
       <li><a href="#">o nama</a>
         <ul>
@@ -79,8 +79,10 @@ function MM_preloadImages() { //v3.0
       </li>
       <li><a href="#">program</a>
         <ul>
-          <li><a href="../programS3_2012_hr.html">S<sup>3</sup> Požega</a></li>
-          <li><a href="../programS3pp_2012_hr.html">S<sup>3</sup>++ Požega</a></li>
+        	<li><a href="../programS3_2014_hr.html">S<sup>3</sup> 2014</a></li>
+          <li><a href="../programS3pp_2014_hr.html">S<sup>3</sup>++ 2014</a></li>
+          <li><a href="../programS3_2013_hr.html">S<sup>3</sup> 2013</a></li>
+          <li><a href="../programS3pp_2013_hr.html">S<sup>3</sup>++ 2013</a></li>
           <li><a href="../arhiva.html">arhiva</a></li>
         </ul>
       <li><a href="#" class="MenuBarItemSubmenu">o školi</a>
@@ -99,7 +101,7 @@ function MM_preloadImages() { //v3.0
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <hr />
-<p>Copyright © 2011 Društvo za edukaciju van okvira (EVO). Sva prava pridržana.<br />
+<p>Copyright © 2014 Društvo za edukaciju van okvira (EVO). Sva prava pridržana.<br />
   Web dizajn: Martina Mijušković. Općeniti tekst: Branimir Lukić i Martina Mijušković. Prijevod na hrvatski: Matilda Maleš.</p>
 <p>&nbsp;</p>
 </div>
