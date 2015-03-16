@@ -296,3 +296,7 @@ body {
 #main_content #main_text #org #orgS3 #branko {
 	float: left;
 }
+
+#projects img {
+	margin-top: 3px;
+}
