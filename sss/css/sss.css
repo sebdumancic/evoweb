@@ -469,3 +469,18 @@ body {
     margin-top: 5pt;
     margin-right: 0pt;
 }
+
+#questions {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.question {
+    font-style: italic;
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+}
