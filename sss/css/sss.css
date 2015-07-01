@@ -484,3 +484,12 @@ body {
 .bold {
     font-weight: bold;
 }
+
+#reference {
+      text-align: left;
+      margin-bottom: 15px;
+}
+
+#reference h4 {
+    margin-bottom: 5px;
+}
