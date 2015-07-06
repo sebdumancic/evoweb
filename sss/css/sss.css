@@ -501,3 +501,12 @@ body {
 #org img {
     margin: 15px;
 }
+
+.orgParagraph p {
+    font-size: 1.2em;
+}
+
+#pporganizers img {
+    margin-top: 5pt;
+    margin-right: 0pt;
+}
