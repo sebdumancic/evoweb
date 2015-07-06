@@ -93,7 +93,7 @@ div.linev {
 
 }
 
-@media(max-width:992px) {
+@media(max-width:992px) and (min-width: 768px) {
 a.nav {
 	font-size: 8px;
 }
