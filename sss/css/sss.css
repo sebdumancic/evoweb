@@ -510,3 +510,13 @@ body {
     margin-top: 5pt;
     margin-right: 0pt;
 }
+
+.break-section p.main2 a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.break-section p.main2 a {
+    text-decoration: none;
+    color: white;
+}
