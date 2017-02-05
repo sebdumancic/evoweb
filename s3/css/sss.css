@@ -534,3 +534,20 @@ body {
 #gallery ul li img {
     cursor: pointer;
 }
+
+.newssectionmain {
+    width: 67%;
+    float: left;
+}
+
+.newssectionface {
+    width: 30%;
+    float: right;
+}
+
+.newsdate {
+    text-align: right;
+    font-size: smaller;
+    color: grey;
+    margin-bottom: 10px;
+}
